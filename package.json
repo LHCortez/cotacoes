@@ -1,14 +1,26 @@
 {
   "name": "web-server",
-  "version": "1.0.0",
-  "description": "Aplicação de Cotações",
-  "main": "app.js",
+  "version": "2.0.0",
+  "description": "Projeto de Cotações para estudo Node.js",
+  "main": "/src/app.js",
   "scripts": {
-    "start": "node ./app.js",
+    "start": "node ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LHCortez/cotacoes.git"
+  },
+  "keywords": [
+    "ações",
+    "node.js"
+  ],
   "author": "LHC",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LHCortez/cotacoes/issues"
+  },
+  "homepage": "https://github.com/LHCortez/cotacoes#readme",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.0.5",
